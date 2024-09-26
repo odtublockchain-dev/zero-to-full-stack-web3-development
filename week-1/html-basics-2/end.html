@@ -5,5 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>This is the final look! | Week 1 / HTML Basics 2</title>
   </head>
-  <body></body>
+  <body>
+    <!-- START: STEP 1 -->
+    <h1>Contact With Us!</h1>
+    <form action="handleContactSubmit" method="GET">
+      <label for="userName">Your Full Name:</label>
+      <input type="text" id="userName" name="userName" />
+      <br />
+      <br />
+      <label for="feedbackSubject">Subject:</label>
+      <select id="feedbackSubject">
+        <option value="question">Question</option>
+        <option value="feedback">Feedback</option>
+        <option value="support">Support</option>
+      </select>
+      <br /><br />
+      <textarea
+        name="userFeedback"
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Your message here..."
+      ></textarea>
+      <br /><br />
+      <button type="submit">Send Comment</button>
+    </form>
+    <!-- END: STEP 1 -->
+
+    <br /><br />
+
+    <!-- START: STEP 2 -->
+    <table>
+      <tr>
+        <th>Day</th>
+        <th>Activity</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>Workshop</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Practice Session</td>
+      </tr>
+    </table>
+    <!-- END: STEP 2 -->
+
+    <br /><br />
+
+    <!-- START: STEP 3 -->
+    <header>
+      <h1>Navigate</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <br />
+    <hr />
+    <section>
+      <article>
+        <h2>What is Ethereum?</h2>
+        <p>
+          Ethereum is a decentralized global software platform powered by
+          blockchain technology. It is most commonly known by investors for its
+          native cryptocurrency, ether (ETH), and by developers for its use in
+          blockchain and decentralized finance application development.
+        </p>
+      </article>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 ETHGlobal Foundation</p>
+    </footer>
+    <!-- END: STEP 3 -->
+
+    <br /><br />
+
+    <!-- START: STEP 4 -->
+
+    <img src="example.jpg" alt="A description of the image" /> <br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" />
+
+    <!-- END: STEP 4 -->
+  </body>
 </html>
