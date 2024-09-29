@@ -3,10 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Starting page</title>
+    <title>Start from here! | Week 2 / Workshop 3 / CSS Basics 1</title>
     <link rel="stylesheet" href="./start.css" />
   </head>
   <body>
-    <h1>Starting page</h1>
+    <!-- 
+      * Open the `README.md` file and get started with the steps of this workshop!
+    -->
+    <form>
+     
+      <h1>Contact With Us!</h1>
+      <label for="userName">Your Full Name:</label><br />
+      <input type="text" id="userName" />
+      <br />
+      <br />
+      <label for="subject">Subject:</label><br />
+      <select id="subject">
+        <option value="question">Question</option>
+        <option value="feedback">Feedback</option>
+        <option value="support">Support</option>
+      </select>
+      <br /><br />
+      <label for="message">Message:</label><br />
+      <textarea
+        name="message"
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Your message here..."
+      ></textarea>
+      <br /><br />
+      <button class="submitButton" type="submit">Send Comment</button>
+    </form>
   </body>
 </html>

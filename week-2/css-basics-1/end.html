@@ -3,8 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>This is the final look! | Week 2 / Workshop 3 / CSS Basics 1</title>
     <link rel="stylesheet" href="./end.css" />
   </head>
-  <body></body>
+  <body>
+    <form class="contactForm">
+      <img src="./images/contact-form-img.png" class="contactFormImage" />
+      <h1 class="formHeader">Contact With Us!</h1>
+      <label for="fullNameInputField">Your Full Name:</label>
+      <br />
+      <input type="text" id="fullNameInputField" />
+      <br />
+      <br />
+      <label for="subjectSelectField">Subject:</label><br />
+      <select id="subjectSelectField">
+        <option value="question">Question</option>
+        <option value="feedback">Feedback</option>
+        <option value="support">Support</option>
+      </select>
+      <br /><br />
+      <label for="message">Message:</label><br />
+      <textarea
+        id="message"
+        cols="30"
+        rows="10"
+        placeholder="Your message here..."
+      ></textarea>
+      <br /><br />
+      <button class="submitButton" type="submit">Submit Form</button>
+    </form>
+  </body>
 </html>

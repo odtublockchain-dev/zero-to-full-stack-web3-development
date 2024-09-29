@@ -1,0 +1,79 @@
+/* START: 0. Removing default browser styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+}
+/* END: 0. Removing default browser styling */
+
+/* START: 1. Styling `<form>` tag */
+.contactForm {
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 5rem;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+}
+/* END: 1. Styling `<form>` tag */
+
+/* START: 2. Styling `<h1>`tag */
+.formHeader {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+/* END: 2. Styling `<h1>`tag */
+
+/* START: 3. Styling all the `<label>`tags */
+label {
+  font-size: 14px;
+  color: gray;
+}
+/* END: 3. Styling all the `<label>`tags */
+
+/* START: 4. Styling Full Name `input` field and Subject `select` field */
+#fullNameInputField,
+#subjectSelectField {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* END: 4. Styling Full Name `input` field and Subject `select` field */
+
+/* START: 5. Styling `<textarea>` message input field */
+#message {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 10rem;
+}
+/* END: 5. Styling `<textarea>` message input field */
+
+/* START: 6. Styling Submit button `<button>` */
+.submitButton {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+/* END: 6. Styling Submit button `<button>` */
+
+/* START: 7. Adding and styling a form image */
+.contactFormImage {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+/* END: 7. Adding and styling a form image */
