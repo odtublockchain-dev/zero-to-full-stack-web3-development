@@ -5,7 +5,7 @@ In this workshop, you will learn how to enhance the presentation of your HTML we
 CSS (Cascading Style Sheets) is used to style and layout web pages. While HTML defines the structure of a webpage, CSS defines how it looks. You can use CSS to apply styles like colors, fonts, margins, padding, and more to your webpage elements.
 
 ## Step 1: Linking CSS to an HTML Document
-
+![](./images/linking.png)
 There are **three main ways** to add CSS to an HTML document [https://www.w3schools.com/css/css_howto.asp]:
 
 - **Inline Styles:** Applied directly to HTML elements using the `style` attribute.
@@ -46,6 +46,8 @@ There are **three main ways** to add CSS to an HTML document [https://www.w3scho
 ## Step 2: Basic CSS Syntax
 
 CSS is made up of selectors, properties, and values. [https://www.w3schools.com/css/css_syntax.asp]
+
+![](./images/syntax-explained.png)
 
 - **Selectors** specify the HTML elements to which you want to apply styles (e.g., `p {}`, `.class {}`, `#id {}`). [https://www.w3schools.com/css/css_selectors.asp]
 
@@ -101,7 +103,10 @@ CSS is made up of selectors, properties, and values. [https://www.w3schools.com/
 
 Here are a few essential CSS properties you'll use to style your webpage:
 
-- **1- Colors:** Colors are used to set the background, text, or borders of elements. [https://www.w3schools.com/css/css_colors.asp]
+- **1- Colors:** Colors are used to set the background, text, or borders of elements. 
+
+  - ![](./images/colors.jpg)
+  - ![](./images/hex-colors.png)
 
   - Examples:
 
@@ -119,12 +124,16 @@ Here are a few essential CSS properties you'll use to style your webpage:
 
   - You can set the color of backgrounds, texts, borders, and more.
   - Colors are specified using predefined color names (Tomato, Orange, Gray...), or RGB, HEX, HSL, RGBA, HSLA values.
+  - Learn More:
+    - https://www.w3schools.com/css/css_colors.asp 
+    - http://web.simmons.edu/~grovesd/comm244/notes/week3/css-colors
 
 <br>
 <br>
 
-- **2- Backgrounds:** The CSS background properties are used to add background effects for elements. [https://www.w3schools.com/css/css_background.asp]
+- **2- Backgrounds:** The CSS background properties are used to add background effects for elements. 
 
+  - ![](./images/background-color.png)
   - Examples:
 
     ```css
@@ -140,11 +149,15 @@ Here are a few essential CSS properties you'll use to style your webpage:
     ```
 
   - We will use only `background-color` for now. Don't worry about other properties, we will learn and practice them in detail later on.
+  - Learn More:
+    - W3Schools Backgrounds: https://www.w3schools.com/css/css_background.asp
 
 <br>
 <br>
 
-- **3- Opacity:** The `opacity` property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent. [https://www.w3schools.com/css/css_background.asp]
+- **3- Opacity:** The `opacity` property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent. 
+
+  - ![](./images/opacity.png)
 
   - Example:
 
@@ -156,11 +169,15 @@ Here are a few essential CSS properties you'll use to style your webpage:
     ```
 
   - We will use only `background-color` for now. Don't worry about other properties, we will learn and practice them in detail later on.
+ - Learn More:
+    - W3Schools Opacity: https://www.w3schools.com/css/css_background.asp
 
 <br>
 <br>
 
-- **4- Borders:** Borders define the edge of an element, and can have different styles, thicknesses, and colors. [https://www.w3schools.com/css/css_border.asp]
+- **4- Borders:** Borders define the edge of an element, and can have different styles, thicknesses, and colors.
+
+  - ![](./images/borders.png)
 
   - Examples:
 
@@ -184,11 +201,15 @@ Here are a few essential CSS properties you'll use to style your webpage:
       border: 1px solid grey;
     }
     ```
+  - Learn More:
+    - W3Schools CSS Borders: https://www.w3schools.com/css/css_border.asp
 
 <br>
 <br>
 
-- **5- Margins:** Margins create space outside of elements, affecting the spacing between elements. [https://www.w3schools.com/css/css_margin.asp]
+- **5- Margins:** Margins create space outside of elements, affecting the spacing between elements.
+
+  - ![](./images/margins.png)
 
   - Examples:
 
@@ -212,11 +233,14 @@ Here are a few essential CSS properties you'll use to style your webpage:
       margin: 5px 10px 0px 15px; /* 5px top, 10px right, 0px bottom, 15px left margin */
     }
     ```
-
+  - Learn More:
+    - W3Schools CSS Margins: https://www.w3schools.com/css/css_margin.asp
 <br>
 <br>
 
-- **6- Paddings:** Paddings add space inside an element, between the content and the border. [https://www.w3schools.com/css/css_padding.asp]
+- **6- Paddings:** Paddings add space inside an element, between the content and the border.
+
+  - ![](./images/paddings.gif)
 
   - Examples:
 
@@ -240,12 +264,16 @@ Here are a few essential CSS properties you'll use to style your webpage:
       padding-left: 15px;
     }
     ```
+  - Learn More:
+    - W3Schools CSS Paddings: https://www.w3schools.com/css/css_padding.asp
 
 <br>
 <br>
 
-- **7- Width & Height:** The CSS `height` and `width` properties are used to set the height and width of an element. [https://www.w3schools.com/css/css_dimension.asp]
-
+- **7- Width & Height:** The CSS `height` and `width` properties are used to set the height and width of an element. 
+ 
+  - ![](./images/width-height.png)
+  
   - Examples:
 
     ```css
@@ -264,10 +292,13 @@ Here are a few essential CSS properties you'll use to style your webpage:
 
   - We will be learning `max-height`, `max-width`, `min-height`, and `min-width` properties later on.
 
+  - Learn More:
+    - W3Schools CSS Dimensions: https://www.w3schools.com/css/css_dimension.asp
+
 <br>
 <br>
 
-- **8- Border Radius:** The `border-radius` property is used to add rounded borders to an element. [https://www.w3schools.com/css/css_border_rounded.asp]
+- **8- Border Radius:** The `border-radius` property is used to add rounded borders to an element.
 
   - Examples:
 
@@ -278,10 +309,13 @@ Here are a few essential CSS properties you'll use to style your webpage:
     }
     ```
 
+  - Learn More:
+    - W3Schools CSS Dimensions: https://www.w3schools.com/css/css_border_rounded.asp
+
 <br>
 <br>
 
-- **9- Box Model:** All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: content, padding, borders and margins. The following image illustrates the box model: [https://www.w3schools.com/css/css_boxmodel.asp]
+- **9- Box Model:** All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: content, padding, borders and margins. The following image illustrates the box model: []
 
   - ![](./images/box-model.jpg)
 
@@ -299,6 +333,8 @@ Here are a few essential CSS properties you'll use to style your webpage:
           padding: 50px;
           margin: 20px;
         }
+  - Learn More:
+    - W3Schools CSS Box Model: https://www.w3schools.com/css/css_boxmodel.asp
 
     <br>
     <br>
