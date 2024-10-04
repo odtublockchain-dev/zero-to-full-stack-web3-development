@@ -6,7 +6,7 @@ CSS (Cascading Style Sheets) is used to style and layout web pages. While HTML d
 
 ## Step 1: Linking CSS to an HTML Document
 ![](./images/linking.png)
-There are **three main ways** to add CSS to an HTML document [https://www.w3schools.com/css/css_howto.asp]:
+There are **three main ways** to add CSS to an HTML document:
 
 - **Inline Styles:** Applied directly to HTML elements using the `style` attribute.
 
@@ -43,13 +43,16 @@ There are **three main ways** to add CSS to an HTML document [https://www.w3scho
     </head>
     ```
 
+- Learn More:
+  - W3Schools Three Ways of Linking CSS: https://www.w3schools.com/css/css_howto.asp
+
 ## Step 2: Basic CSS Syntax
 
-CSS is made up of selectors, properties, and values. [https://www.w3schools.com/css/css_syntax.asp]
+CSS is made up of selectors, properties, and values.
 
 ![](./images/syntax-explained.png)
 
-- **Selectors** specify the HTML elements to which you want to apply styles (e.g., `p {}`, `.class {}`, `#id {}`). [https://www.w3schools.com/css/css_selectors.asp]
+- **Selectors** specify the HTML elements to which you want to apply styles (e.g., `p {}`, `.class {}`, `#id {}`).
 
   - Example of defining a class selector:
 
@@ -59,6 +62,9 @@ CSS is made up of selectors, properties, and values. [https://www.w3schools.com/
 
     ` <h1 id="formHeader">Contact With Us!</h1>`
 
+  - Learn More:
+    - W3Schools CSS Syntax: https://www.w3schools.com/css/css_syntax.asp
+    - W3Schools CSS Selectors: https://www.w3schools.com/css/css_selectors.asp
 <br>
 <br>
 
@@ -89,7 +95,7 @@ CSS is made up of selectors, properties, and values. [https://www.w3schools.com/
 <br>
 <br>
 
-- **Comments** are used to explain the code, and may help when you edit the source code at a later date. [https://www.w3schools.com/css/css_comments.asp]
+- **Comments** are used to explain the code, and may help when you edit the source code at a later date.
 
   - Example:
     ```css
@@ -98,6 +104,8 @@ CSS is made up of selectors, properties, and values. [https://www.w3schools.com/
       color: red;
     }
     ```
+  - Learn More:
+    - W3Schools CSS Comments: https://www.w3schools.com/css/css_comments.asp
 
 ## Step 3: Basic CSS Properties
 
@@ -125,8 +133,8 @@ Here are a few essential CSS properties you'll use to style your webpage:
   - You can set the color of backgrounds, texts, borders, and more.
   - Colors are specified using predefined color names (Tomato, Orange, Gray...), or RGB, HEX, HSL, RGBA, HSLA values.
   - Learn More:
-    - https://www.w3schools.com/css/css_colors.asp 
-    - http://web.simmons.edu/~grovesd/comm244/notes/week3/css-colors
+    - W3Schools CSS Colors: https://www.w3schools.com/css/css_colors.asp 
+    - Simmons CSS Colors: http://web.simmons.edu/~grovesd/comm244/notes/week3/css-colors
 
 <br>
 <br>
