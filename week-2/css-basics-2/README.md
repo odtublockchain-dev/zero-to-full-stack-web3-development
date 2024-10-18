@@ -2,9 +2,6 @@
 
 In this workshop, you will learn the more intermediate concepts of the CSS and practice them by styling your
 
-Tüm propertyler: https://www.w3schools.com/cssref/index.php
-pseudo class: https://www.w3schools.com/css/css_pseudo_classes.asp
-
 ## Step 1: Intermediate CSS Properties
 
 Here are a few essential and intermediate-level CSS properties you'll use to style your webpage:
