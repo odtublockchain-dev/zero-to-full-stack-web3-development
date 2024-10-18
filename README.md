@@ -3,9 +3,9 @@
 ## Bootcamp Details - English
 👨‍💻 **Instructor:** Hüseyin Karataş - METU Blockchain DEV Lead ( [Follow on Twitter](https://twitter.com/0xDuplantier) ) ( [See on LinkedIn](https://bit.ly/huseyinkaratas-linkedin) )
 
-⏰ **Registration deadline:** October 13, 2024.
+⏰ **Registration deadline:** October 20, 2024.
 
-🚀 **Kickoff:** The week of October 14.
+🚀 **Kickoff:** October 15.
 
 🗓️ **Program:** 1 face-to-face and 1 online class per week. A total of **12 workshops**, each lasting up to **1.5 hours**.
 
@@ -31,9 +31,9 @@
 ## Bootcamp Detayları - Türkçe
 👨‍💻 **Eğitmen:** Hüseyin Karataş - ODTÜ Blockchain DEV Lead ( [Twitter](https://twitter.com/0xDuplantier) ) ( [LinkedIn](https://bit.ly/huseyinkaratas-linkedin) )
 
-⏰ **Son Kayıt Tarihi:** 13 Ekim 2024.
+⏰ **Son Kayıt Tarihi:** 20 Ekim 2024.
 
-🚀 **Başlangıç Tarihi:** 14 Ekim haftası.
+🚀 **Başlangıç Tarihi:** 15 Ekim.
 
 🗓️ **Program:** Her hafta 1 yüz yüze 1 çevrimiçi ders. Her biri en fazla **1.5 saat** sürecek olan **toplam 12 workshop**. 
 
