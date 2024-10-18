@@ -1,4 +1,4 @@
-# **Week 2 / Workshop 3 / CSS Basics 1**
+# **Week 2 / Workshop 4 / CSS Basics 2**
 
 In this workshop, you will learn the more intermediate concepts of the CSS and practice them by styling your
 
