@@ -1,6 +1,6 @@
 # **Week 2 / Workshop 4 / CSS Basics 2**
 
-In this workshop, you will learn the more intermediate concepts of the CSS and practice them by styling your
+In this workshop, you will learn the more intermediate concepts of CSS.
 
 ## Step 1: Intermediate CSS Properties
 
@@ -123,7 +123,7 @@ Here are a few essential and intermediate-level CSS properties you'll use to sty
         ```
 
   - Learn More:
-    - W3Schools CSS Position:
+    - W3Schools CSS Position: https://www.w3schools.com/css/css_positioning.asp
 
 <br>
 <br>

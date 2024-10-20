@@ -318,7 +318,7 @@ Here are a few essential CSS properties you'll use to style your webpage:
     ```
 
   - Learn More:
-    - W3Schools CSS Dimensions: https://www.w3schools.com/css/css_border_rounded.asp
+    - W3Schools CSS Border Radius: https://www.w3schools.com/css/css_border_rounded.asp
 
 <br>
 <br>
