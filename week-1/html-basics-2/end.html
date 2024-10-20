@@ -8,13 +8,13 @@
   <body>
     <!-- START: STEP 1 -->
     <h1>Contact With Us!</h1>
-    <form action="handleContactSubmit" method="GET">
+    <form action="handleContactSubmit" class="contactForm">
       <label for="userName">Your Full Name:</label>
-      <input type="text" id="userName" name="userName" />
+      <input type="email" id="userName" name="userName" />
       <br />
       <br />
       <label for="feedbackSubject">Subject:</label>
-      <select id="feedbackSubject">
+      <select id="feedbackSubject" name="feedbackType">
         <option value="question">Question</option>
         <option value="feedback">Feedback</option>
         <option value="support">Support</option>
@@ -22,13 +22,14 @@
       <br /><br />
       <textarea
         name="userFeedback"
-        id=""
         cols="30"
         rows="10"
         placeholder="Your message here..."
+        maxlength="500"
+        style="resize: none;"
       ></textarea>
       <br /><br />
-      <button type="submit">Send Comment</button>
+      <button type="reset">Send Comment</button>
     </form>
     <!-- END: STEP 1 -->
 
@@ -66,7 +67,12 @@
     <hr />
     <section>
       <article>
-        <h2>What is Ethereum?</h2>
+        <h1>Introduction to HTML5</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quo ratione perferendis nisi deleniti veniam!
+        </p>
+
+        <h2>What is HTML?</h2>
         <p>
           Ethereum is a decentralized global software platform powered by
           blockchain technology. It is most commonly known by investors for its
@@ -77,7 +83,7 @@
     </section>
 
     <footer>
-      <p>&copy; 2024 ETHGlobal Foundation</p>
+      <p> &copy; 2024 ETHGlobal Foundation</p>
     </footer>
     <!-- END: STEP 3 -->
 
