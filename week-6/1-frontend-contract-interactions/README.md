@@ -1,0 +1,1 @@
+# **Week 6 / Workshop 11 / Frontend-Contract Interactions**
