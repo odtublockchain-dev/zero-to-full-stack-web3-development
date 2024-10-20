@@ -3,12 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>This is the final look! | Week 2 / Workshop 4 / CSS Basics 2</title>
     <link rel="stylesheet" href="./end.css" />
   </head>
   <body>
     <section class="mainContainer">
-      <img src="./images/contact-form-img.png" class="contactFormImage" />
       <form class="contactForm">
         <h1 class="formHeader">Contact With Us!</h1>
         <p class="formExplanation">
@@ -49,7 +48,8 @@
           rows="10"
           placeholder="Your message*"
           required
-          style="font-family: Arial, Helvetica, sans-serif"
+          style="font-family: Arial, Helvetica, sans-serif; resize: none;"
+          maxlength="500"
         ></textarea>
 
         <br />
@@ -61,7 +61,7 @@
           required
         />
         <label for="consent"
-          >By submitting this form, I agree to the terms and conditions.
+          >By submitting this form, I agree to the <a class="termsconditions-link" href="terms.html">terms</a> and <a class="termsconditions-link" href="conditions.html">conditions</a> .
         </label>
         <br /><br />
 

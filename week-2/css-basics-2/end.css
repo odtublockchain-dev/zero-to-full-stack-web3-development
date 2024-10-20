@@ -7,47 +7,33 @@
 body {
   font-family: "Arial", sans-serif;
   background-color: #f0f0f0;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  min-height: 100vh;
 }
 
 .mainContainer {
-  position: relative;
   margin-top: 10px;
-}
-
-.contactFormImage {
-  position: absolute;
-  top: 0px;
-  right: 0;
-  left: 100px;
-  width: 100%;
-  border-radius: 12px;
-  margin-bottom: 20px;
+  min-height: 100vh; /* REQUIRED FOR justify-items FUNCTIONALITY! */
+  display: flex;
+  justify-content: center;
+  justify-items: center;
 }
 
 .contactForm {
-  position: absolute;
-  top: 100px;
-  width: 400px; /* 30 olarak değiştir */
+  width: 400px; 
   height: 500px;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  background-color: #fff;
+  background-color: white;
   border-radius: 16px;
   border: 3px solid #8517c2;
   margin: auto;
   border-top: 10px solid #8517c2;
-  z-index: 50;
-  box-shadow: 2px 2px 30px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 30px 3px rgba(0, 0, 0, 0.2);
 }
 
 .contactForm > .formHeader {
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin-bottom: 5px;
 }
 
@@ -85,13 +71,18 @@ label {
   border-color: #8517c2 !important;
 }
 
-#fullNameInputField,
+
 #subjectSelectField {
   width: 100%;
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 4px;
   color: gray;
+}
+
+#fullNameInputField:active {
+ 
+  border: 1px solid #8517c2;
 }
 
 #message {
@@ -103,11 +94,26 @@ label {
   height: 5rem;
 }
 
+
+.termsconditions-link:visited {
+  color: #8517c2;
+}
+
+.termsconditions-link:hover {
+  color: #ca69ff;
+}
+
 .submitButton {
   width: 100%;
   padding: 0.5rem;
-  background-color: #007bff;
+  background-color: #8517c2;
   color: #fff;
-  border: none;
-  border-radius: 4px;
+  border: 2px solid #cb6aff;
+  border-radius: 8px;
+}
+
+.submitButton:hover {
+  cursor: pointer; /* Make the mouse a "pointer" when the user hovers over the button */
+  background-color: #660a98;
+  border-color: #8517c2;
 }
