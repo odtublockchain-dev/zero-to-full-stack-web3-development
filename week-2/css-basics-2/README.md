@@ -1,6 +1,6 @@
 # **Week 2 / Workshop 4 / CSS Basics 2**
 
-In this workshop, you will learn the more intermediate concepts of the CSS and practice them by styling your
+In this workshop, you will learn the more intermediate concepts of CSS.
 
 ## Step 1: Intermediate CSS Properties
 
