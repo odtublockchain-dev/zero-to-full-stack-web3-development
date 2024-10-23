@@ -1,0 +1,1 @@
+/* Start to write your first JavaScript logic! */
