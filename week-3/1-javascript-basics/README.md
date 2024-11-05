@@ -153,8 +153,134 @@
 ### Operators and Expressions
 
 - Assignment operator: `=`
-- Comparison operators: `==`, `===`
+
+  - The assignment operator is used to assign a value to a variable. It takes the expression on its right side and assigns it to the variable on its left side. This operator does not check equality; it simply performs the assignment action.
+  - Example:
+    ```javascript
+    let x = 5; // Here, x is assigned the value 5.
+    let y = x; // Here, y is assigned the value of x, so y is also 5.
+    ```
+
+- Comparison operators:
+
+  - Equality: `==`
+
+    - The Equality operator checks if two values are "loosely equal." This means it performs type coercion, converting both values to a common type before comparison. Because of type coercion, == can sometimes produce unexpected results if the types are different.
+    - Example:
+      ```javascript
+      5 == "5"; // true, because '5' (string) is converted to 5 (number) before comparison.
+      0 == false; // true, because false is converted to 0 before comparison.
+      ```
+
+  - Strict Equality: `===`
+    - The Strict Equality operator checks if two values are "strictly equal." Unlike ==, it does not perform type coercion, meaning both the value and the type must be the same for the comparison to return true. This is generally the preferred comparison operator because it is more predictable and avoids unexpected behavior due to type coercion.
+    - Example:
+      ```javascript
+      5 === "5"; // false, because one is a number and the other is a string.
+      0 === false; // false, because one is a number and the other is a boolean.
+      5 === 5; // true, both are the same value and type.
+      ```
+
 - Arithmetic operators: `+`Ï, `-`, `*`, `/`
+
+  - Examples:
+
+    ```javascript
+    let a = 5 + 3; // a is 8 (number addition).
+    let b = "Hello" + " World"; // b is 'Hello World' (string concatenation).
+    let c = 5 + "3"; // c is '53' (number converted to string, then concatenated).
+
+    let a = 10 - 4; // a is 6.
+    let b = "10" - 4; // b is 6, because '10' (string) is converted to 10 (number) before subtraction.
+
+    let a = 5 * 3; // a is 15.
+    let b = "5" * 3; // b is 15, because '5' (string) is converted to 5 (number) before multiplication.
+
+    let a = 10 / 2; // a is 5.
+    let b = "10" / 2; // b is 5, because '10' (string) is converted to 10 (number) before division.
+    let c = 10 / 0; // c is Infinity, because dividing by zero returns Infinity in JavaScript.
+    ```
+
+- Logical Operators
+
+  - Logical AND (`&&`): The `&&` operator evaluates to `true` only if both operands (expressions) are `true`. If either operand is `false`, the entire expression evaluates to `false`.
+
+    - **Short-circuiting behavior:** JavaScript will evaluate the first operand. If it is `false`, it will immediately return `false` without evaluating the second operand, because the entire expression cannot be `true`. If the first operand is `true`, it will evaluate the second operand and return its value.
+    - Examples:
+
+      ```javascript
+      true && true; // true
+      true && false; // false
+      false && true; // false
+      false && false; // false
+
+      // Short-circuit behavior
+      let a = 5;
+      let result = a > 3 && a < 10; // true, both conditions are true
+
+      // Example with non-Boolean values
+      let x = 0 && "Hello"; // 0, because 0 is "falsy"
+      let y = "Hello" && "World"; // 'World', because both are "truthy" and returns the last value
+      ```
+
+  - Logical OR (`||`): The `||` operator evaluates to `true` if either operand is `true`. If both operands are `false`, it evaluates to `false`.
+
+    - **Short-circuiting behavior:** JavaScript will evaluate the first operand. If it is true, it will immediately return true without evaluating the second operand because the entire expression cannot be false. If the first operand is false, it will evaluate the second operand and return its value.
+    - Examples:
+
+      ```javascript
+      true || false; // true
+      false || true; // true
+      false || false; // false
+      true || true; // true
+
+      // Short-circuit behavior
+      let a = 5;
+      let result = a > 3 || a < 2; // true, because the first condition is true
+
+      // Example with non-Boolean values
+      let x = 0 || "Hello"; // 'Hello', because 0 is "falsy" and 'Hello' is "truthy"
+      let y = "Hello" || "World"; // 'Hello', because it returns the first "truthy" value
+      ```
+
+  - Logical NOT (`!`): The `!` operator is the logical NOT operator and is a unary operator (it operates on a single operand). It inverts the Boolean value of the operand:
+
+    - `true` becomes `false`
+    - `false` becomes `true`
+
+    - Examples:
+
+      ```javascript
+      !true; // false
+      !false; // true
+
+      let a = 5;
+      let result = !(a > 3); // false, because (a > 3) is true, and `!` inverts it to false
+
+      // Double NOT for coercion
+      !!0; // false, because 0 is "falsy"
+      !!"Hello"; // true, because 'Hello' is "truthy"
+      ```
+
+  - Truthy and Falsy Values in Logical Operations: In JavaScript, logical operators don't always return `true` or `false` directly, as they often return one of the operands. The values in JavaScript are classified as:
+
+    - **"Truthy" values:** Evaluated as `true` in a Boolean context (e.g., non-empty strings, non-zero numbers, objects, arrays).
+    - **"Falsy" values:** Evaluated as `false` in a Boolean context (e.g., 0, "" (empty string), null, undefined, NaN, false).
+
+  - Combining Logical Operators: Logical operators can be combined to form complex logical expressions.
+
+    - Example:
+
+      ```javascript
+      let age = 25;
+      let hasID = true;
+
+      // Check if the person is allowed to enter (must be 21+ and have an ID)
+      let canEnter = age >= 21 && hasID; // true, both conditions are met
+
+      // Check if the person can get a discount (under 18 or over 65)
+      let isEligibleForDiscount = age < 18 || age > 65; // false, neither condition is met
+      ```
 
 <br>
 <br>
