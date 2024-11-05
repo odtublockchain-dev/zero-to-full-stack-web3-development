@@ -369,7 +369,7 @@
 
 - Methods like `getElementById`, `querySelector` allow you to select specific elements from the page.
 
-- Example code snippet:
+- `getElementById` Example code snippet:
 
   ```html
   <!DOCTYPE html>
@@ -391,6 +391,14 @@
       </script>
     </body>
   </html>
+  ```
+
+- `querySelector` Example code snippet:
+  ```javascript
+  let element = document.querySelector("#myId"); // This will select the element with id="myId"
+  let element = document.querySelector(".myClass"); // This will select the first element with class="myClass"
+  let element = document.querySelector("div"); // This will select the first <div> element in the DOM
+  let element = document.querySelector(".container .item"); // This will select the first element with class="item" inside an element with class="container"
   ```
 
 ### Adding event listeners:
