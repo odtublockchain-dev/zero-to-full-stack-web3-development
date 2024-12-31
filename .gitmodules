@@ -1,0 +1,3 @@
+[submodule "week-6/2-dapp-development/foundry-lucky-number/lib/forge-std"]
+	path = week-6/2-dapp-development/foundry-lucky-number/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
